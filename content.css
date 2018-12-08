@@ -1,0 +1,40 @@
+img.growing {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    line-height: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+img#growing-kotori {
+    width: 750px;
+    height: 1000px;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    transition: 0.2s !important;
+}
+
+img#growing-yo {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: 0.2s !important;
+}
+
+
+img#growing-kotori.growing-hide,
+img#growing-kotori[data-growing="false"] {
+    transform: translate(-750px, 1000px);
+}
+
+img#growing-yo.growing-hide,
+img#growing-yo[data-growing="false"] {
+    transform: translateY(450px);
+}

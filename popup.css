@@ -1,0 +1,21 @@
+#list {
+    display: flex;
+}
+
+#list img {
+    margin: 3px;
+    transition: 0.2s;
+}
+
+#list img:hover {
+    transform: scale(1.2);
+
+}
+
+img[data-growing="false"] {
+    filter: grayscale(100%);
+}
+
+img[data-growing="true"] {
+    filter: grayscale(0);
+}
