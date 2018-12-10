@@ -1,13 +1,19 @@
 {
     "name": "生えてくるスクールアイドル",
-    "version": "1.0",
     "manifest_version": 2,
+    "version": "1.0.1",
+    "icons": {
+        "16": "img/icon16.png",
+        "32": "img/icon32.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
     "browser_action": {
         "default_icon": {
-            "16": "img/yo16.png",
-            "32": "img/yo32.png",
-            "48": "img/yo48.png",
-            "128": "img/yo128.png"
+            "16": "img/icon16.png",
+            "32": "img/icon32.png",
+            "48": "img/icon48.png",
+            "128": "img/icon128.png"
         },
         "default_popup": "popup.html"
     },

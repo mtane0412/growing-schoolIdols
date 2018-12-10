@@ -6,7 +6,7 @@ const fragment = document.createDocumentFragment();
 for (let i = 0; i < schoolIdols.length; i++) {
     const schoolIdol = schoolIdols[i];
     const img = document.createElement('img');
-    img.setAttribute("src", chrome.extension.getURL(`img/${schoolIdol}48.png`));
+    img.setAttribute("src", chrome.extension.getURL(`img/${schoolIdol}128.png`));
     img.setAttribute("id", `${schoolIdol}`);
     chrome.storage.local.get([`${schoolIdol}`], (items) => {
         if (!items[`${schoolIdol}`]) {
