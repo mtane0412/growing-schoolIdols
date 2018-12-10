@@ -18,3 +18,12 @@ They disappear when clicked.(They never grows again unless reloading)
 You can turn on/off in the popup window.
 
 ![](https://i.gyazo.com/4b36f0651e4b869da45ab77b1095b756.gif)
+
+## Release notes
+### v1.0.1 (2018-12-10)
+- add: extension icon(Haetekuru Kotori)
+- fix: Watanabe You clipped image has been improved.
+- update: changed appearance of the popup menu.
+
+### v1.0.0 (2018-12-8)
+- release
